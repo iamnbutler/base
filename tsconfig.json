@@ -1,0 +1,46 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "es2016"
+        ],
+        "outDir": "bin",
+        "module": "commonjs",
+        "removeComments": true,
+        "moduleResolution": "node",
+        "typeRoots": [
+            "node_modules/@types/"
+        ],
+        "types": [
+            "node"
+        ]
+    },
+    "formatterOptions": {
+        "baseIndentSize": 0,
+        "indentSize": 2,
+        "indentStyle": "smart",
+        "tabSize": 2,
+        "newLineCharacter": "\n",
+        "convertTabsToSpaces": true,
+        "insertSpaceAfterCommaDelimiter": true,
+        "insertSpaceAfterSemicolonInForStatements": true,
+        "insertSpaceBeforeAndAfterBinaryOperators": true,
+        "insertSpaceAfterKeywordsInControlFlowStatements": true,
+        "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+        "insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+        "insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+        "placeOpenBraceOnNewLineForFunctions": false,
+        "placeOpenBraceOnNewLineForControlBlocks": false,
+        "insertSpaceAfterTypeAssertion": true,
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
